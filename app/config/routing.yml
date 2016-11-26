@@ -1,0 +1,7 @@
+phpproject_general:
+    resource: "@PhpprojectGeneralBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

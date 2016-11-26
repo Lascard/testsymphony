@@ -1,0 +1,3 @@
+user_fos_homepage:
+    path:     /
+    defaults: { _controller: UserFosBundle:Default:index }

@@ -1,3 +1,7 @@
+user_fos:
+    resource: "@UserFosBundle/Resources/config/routing.yml"
+    prefix:   /
+
 phpproject_general:
     resource: "@PhpprojectGeneralBundle/Resources/config/routing.yml"
     prefix:   /
@@ -5,3 +9,6 @@ phpproject_general:
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

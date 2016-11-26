@@ -1,7 +1,3 @@
-user_fos:
-    resource: "@UserFosBundle/Resources/config/routing.yml"
-    prefix:   /
-
 phpproject_general:
     resource: "@PhpprojectGeneralBundle/Resources/config/routing.yml"
     prefix:   /
@@ -12,3 +8,4 @@ app:
 
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+    prefix:   /

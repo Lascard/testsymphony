@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new PhpprojectGeneralBundle\PhpprojectGeneralBundle(),
             new UserFosBundle\UserFosBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new MarcBundle\MarcBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

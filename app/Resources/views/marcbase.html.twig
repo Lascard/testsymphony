@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+      <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>{% block title %}{% endblock %} - Mon Bundle Marc TEST</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
+        <link href ="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+        <link rel="stylesheet" href="{{ asset('css/add.css') }}" />
+    </head>
+    <body>
+            <div>TODO write content</div>
+            <br/>
+            <br/>
+            
+            <div class="alert alert-success" role="alert">TEST Alerte success </div>
+<div class="alert alert-info" role="alert">... ALerte info</div>
+<div class="alert alert-warning" role="alert">... alert warning</div>
+<div class="alert alert-danger" role="alert">...alert danger </div> 
+    
+<br/>
+<br/>
+<span class="label label-default">Default</span>
+<span class="label label-primary">Primary</span>
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span>
+    </body>
+</html>

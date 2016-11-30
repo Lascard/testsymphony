@@ -1,3 +1,7 @@
+marc:
+    resource: "@MarcBundle/Resources/config/routing.yml"
+    prefix:   /marc
+
 phpproject_general:
     resource: "@PhpprojectGeneralBundle/Resources/config/routing.yml"
     prefix:   /
